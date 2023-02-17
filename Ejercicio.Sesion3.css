@@ -28,7 +28,7 @@ header img:hover{
     right: 10px;
     border-radius: 15% 0% 0% 15%;
     box-shadow: 2px 2px 2px 1px lightgray;
-    z-index:10; /* Para que el botón quede por encima de la barra de menú que está sticky */
+    z-index:20; /* Para que el botón quede por encima de la barra de menú que está sticky */
 }
 .botonDescuento:hover{
     width:50px;
@@ -75,7 +75,7 @@ header img:hover{
 
 /* NAV que va dentro del MAIN en este caso*/
 .menu{ 
-    position: sticky; top: 0px; 
+    position: sticky; top: 0px; z-index: 10;
 }
 nav{
     height: 60px;
